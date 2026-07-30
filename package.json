@@ -1,5 +1,5 @@
 {
-  "name": "astro-gsap",
+  "name": "the-algorithm-garden",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -12,7 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.3.1",
+    "astro": "^7.1.4",
     "gsap": "^3.15.0"
   }
 }
