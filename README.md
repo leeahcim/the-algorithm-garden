@@ -70,6 +70,6 @@ See [CREDITS.md](./CREDITS.md) for artwork, footage, and licensing notes.
 
 ## Submission
 
-- **Live site:** Added after Webflow Cloud deployment
+- **Live site:** [the-algorithm-garden.webflow.io](https://the-algorithm-garden.webflow.io/)
 - **Source:** [github.com/leeahcim/the-algorithm-garden](https://github.com/leeahcim/the-algorithm-garden)
 - **Challenge:** [Webflow × GSAP × CodeTV](https://codetv-gsap-cloud.webflow.io/)
