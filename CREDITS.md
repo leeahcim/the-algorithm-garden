@@ -17,6 +17,5 @@ Time-lapse footage of mung bean seeds germinating over approximately ten days. P
 - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mung_bean_germination.ogv)
 - License: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/)
 - Local files:
-  - `public/video/mung-bean-germination.ogv`
   - `public/video/mung-bean-germination.webm`
-- Changes: supplied in two browser-compatible encodings; cropped, mirrored, muted, looped, and color-treated by the website.
+- Changes: compressed into a shorter browser background loop; cropped, mirrored, muted, looped, and color-treated by the website.
