@@ -26,6 +26,7 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 	background: var(--paper);
 	color: var(--ink);
 	font-family: var(--sans);
@@ -39,6 +40,12 @@ body {
 		linear-gradient(90deg, rgba(23, 34, 25, 0.025) 1px, transparent 1px),
 		var(--paper);
 	background-size: 24px 24px;
+}
+
+main,
+section {
+	max-width: 100%;
+	overflow-x: clip;
 }
 
 a {
@@ -626,7 +633,8 @@ svg {
 	z-index: 2;
 	min-height: 100svh;
 	padding: clamp(100px, 13vw, 190px) clamp(20px, 7vw, 110px);
-	overflow: visible;
+	overflow-x: clip;
+	overflow-y: visible;
 	background: var(--lime);
 }
 
