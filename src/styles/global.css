@@ -2019,7 +2019,8 @@ body.is-garden-locked .closing {
 	}
 
 	.hero-override strong {
-		font-size: clamp(80px, 29vw, 126px);
+		/* ENOUGH must fit inside the padded overlay on the narrowest phones. */
+		font-size: clamp(64px, 24vw, 100px);
 	}
 
 	.hero-aside {
@@ -2036,9 +2037,17 @@ body.is-garden-locked .closing {
 	}
 
 	.interruption-stamp {
-		right: 4vw;
-		font-size: clamp(96px, 23vw, 132px);
+		top: 38%;
+		right: 16px;
+		width: auto;
+		max-width: calc(100vw - 32px);
+		overflow-wrap: normal;
+		white-space: nowrap;
+		font-size: clamp(58px, 18vw, 76px);
 		letter-spacing: -0.08em;
+		line-height: 0.7;
+		text-align: right;
+		transform: rotate(-6deg);
 	}
 
 	.interruption-note {
