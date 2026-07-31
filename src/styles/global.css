@@ -45,7 +45,6 @@ body {
 main,
 section {
 	max-width: 100%;
-	overflow-x: clip;
 }
 
 a {
@@ -633,8 +632,7 @@ svg {
 	z-index: 2;
 	min-height: 100svh;
 	padding: clamp(100px, 13vw, 190px) clamp(20px, 7vw, 110px);
-	overflow-x: clip;
-	overflow-y: visible;
+	overflow: visible;
 	background: var(--lime);
 }
 
@@ -2035,6 +2033,12 @@ body.is-garden-locked .closing {
 
 	.interruption h2 {
 		font-size: clamp(46px, 15vw, 78px);
+	}
+
+	.interruption-stamp {
+		right: 4vw;
+		font-size: clamp(96px, 23vw, 132px);
+		letter-spacing: -0.08em;
 	}
 
 	.interruption-note {
